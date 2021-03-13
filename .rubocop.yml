@@ -1,0 +1,9 @@
+AllCops:
+  Include:
+    - 'app/**/*.rb'
+    - 'spec/**/*.rb'
+  Exclude:
+    - 'bin/*'
+    - 'config/*'
+    - 'db/*'
+    - 'test/*'
